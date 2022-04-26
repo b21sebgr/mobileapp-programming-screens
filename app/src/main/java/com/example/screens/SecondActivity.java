@@ -16,9 +16,8 @@ public class SecondActivity extends AppCompatActivity {
         output = findViewById(R.id.output);
 
         Bundle extras = getIntent().getExtras();
-        String test = getIntent().getStringExtra("test");
         if(extras != null) {
-            String input = extras.getString("test");
+            String input = extras.getString("input");
             output.setText(input);
         }
     }
