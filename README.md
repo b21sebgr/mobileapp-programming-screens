@@ -1,7 +1,6 @@
 # Rapport
 
 //TODO
-Fixa dem resources som crashar
 Fixa bilder
 
 I added a button and a edittext in main, took the text from the edittext and put it in the intent
